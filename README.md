@@ -1,2 +1,5 @@
-# scripture
-An AI model made in python that is ridiculously easy to train and use
+# Scripture AI
+## How to Use
+Download the __train.py__ and __scripture.py__ files and import them into your python program with *import train as t* and *import scripture as s*. Next, you have a few options. You can use *t.trainJson(trainingdatapath,resultpath)* to convert a json file in a similar structure to the SQuAD database to a __.csv__ file that can be understood by the AI. Secondly, you can use *t.trainList(questionslist,answerslist)* to convert lists of questions and answers into the __.csv__ format. Finally, you can create your own __data.csv__ file and add the questions and answers to it yourself. Once the AI has the data, you can ask it questions with *s.query(query)* and it will match the questions with the most similar questions in the data file and output the answer.
+## Why Scripture AI?
+Scripture is a great and useful tool for creating your own AI for a specific purpose or knowledge base. It is simple, intuative, easy to use and completely free. Unlike AIs that have complicated neural networks and take months of work to train and use, Scripture can be used with some basic python knowledge and an internet connection. Creating your own specialised AI is hard, but Scripture makes it ridiculously easy.
